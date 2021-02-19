@@ -140,6 +140,10 @@
     padding-bottom: 233px;
     background: url("./../img/bg.png") no-repeat center;
     background-size:cover;
+    @media screen and (max-width: 424px) {
+        padding-top: 53px;
+        padding-bottom: 53px;
+     }
     &_title{
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: bold;
@@ -157,6 +161,7 @@
         }
         @media screen and (max-width: 767px) {
             font-size: 30px;
+            
          }
             }
     &_description{

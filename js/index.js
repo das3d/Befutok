@@ -53,7 +53,7 @@ dots.forEach((item, indexDot) => {
 next.addEventListener('click', nextBtn);
 prev.addEventListener('click', prevBtn);
 
-setInterval(nextBtn, 3000);
+setInterval(nextBtn, 5000);
 $(document).ready(function() { 
     var button = $('#button-up');	
     $(window).scroll (function () {

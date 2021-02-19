@@ -169,6 +169,13 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 424px) {
+  .offer {
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+}
+
 .offer_title {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
